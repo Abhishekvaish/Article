@@ -1,5 +1,41 @@
 import React from "react"
+import { Link,graphql } from "gatsby"
+import Layout from "../components/Layout/Layout.js"
 
-export default function Home() {
-  return <div>Hello world!</div>
+const IndexPage = ({data}) => {
+	const allMarkdownRemark = data.allMarkdownRemark	
+	return (
+		<Layout>
+			{allMarkdownRemark.edges.map((edge)=>(
+				<div key = {edge.node.id} className="card-panel hoverable">
+					<h3>{edge.node.frontmatter.title }</h3>
+					<p>by <b>{edge.node.frontmatter.author}</b><br/>{edge.node.frontmatter.date }</p>
+					<p>{edge.node.excerpt }</p>
+					<Link to ={edge.node.frontmatter.path }>Read More</Link>
+				</div>
+			))}
+		</Layout>
+	)
 }
+
+export const pageQuery = graphql`
+	query AllBlogPost {
+		allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}) {
+			edges {
+				node {
+					frontmatter {
+						author
+						date(formatString: "MMM DD, YYYY")
+						path
+						title
+					}
+					id
+					excerpt
+				}
+			}
+		}
+	}`
+
+
+export default IndexPage;
+

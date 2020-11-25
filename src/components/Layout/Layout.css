@@ -1,0 +1,12 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: georgia, serif;
+  background-color: #0001;
+}
+nav{
+  margin-bottom: 30px;
+}
+main{
+  min-height: 90vh;
+}
