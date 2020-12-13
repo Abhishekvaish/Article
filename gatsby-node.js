@@ -18,6 +18,7 @@ exports.createPages = ({actions,graphql}) => {
 				}
 			}
 		}
+		
 	`).then(res => {
 		if (res.errors)
 			return Promise.reject(res.errors)

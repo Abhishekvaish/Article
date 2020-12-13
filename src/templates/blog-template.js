@@ -43,4 +43,3 @@ query BlogPage($id:String) {
 
 
 export default BlogPage;
-

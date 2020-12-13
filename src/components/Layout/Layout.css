@@ -6,7 +6,74 @@ body{
 }
 nav{
   margin-bottom: 30px;
+  background-color: #7e57c2;
+  color: #fff;
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+}
+.brand-logo{
+	color: #fff;
+	text-decoration: none;
+	font-size: 2.5rem;
 }
 main{
   min-height: 90vh;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
+
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 85%;
+  }
+}
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 70%;
+  }
+}
+.card-panel {
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+  padding: 24px;
+  margin: 0.5rem 0 1rem 0;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.hoverable {
+  -webkit-transition: -webkit-box-shadow .25s;
+  transition: -webkit-box-shadow .25s;
+  transition: box-shadow .25s;
+  transition: box-shadow .25s, -webkit-box-shadow .25s;
+}
+
+.hoverable:hover {
+  -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer {
+  padding-top: 20px;
+  color: #fff;
+  background-color:#673ab7 ;
+  padding-bottom: 20px;
+}
+footer a{
+	text-decoration: none;
+	color: #fff;
+}
+
+pre{
+    line-height: 1.42;
+    background: rgba(0,0,0,.04);
+    border-radius: 3px;
+    overflow: auto;
+    word-wrap: normal;
+    padding: 1.45rem;
 }

@@ -7,9 +7,9 @@ module.exports = {
 			path: `${__dirname}/Content`,
 			}
 		},
-		`gatsby-transformer-remark`,
 		`gatsby-transformer-sharp`,
 		`gatsby-plugin-sharp`,
 		`gatsby-image`,
+		`gatsby-transformer-remark`,
 	],
 }

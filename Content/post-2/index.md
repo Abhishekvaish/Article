@@ -6,14 +6,15 @@ author: "Abhishek Vaish"
 featuredImage: "./django-heroku.jpg"
 ---
 
-#### Step 1. Create a Procfile in your project root.
-Procfile
-```
+##### Step 1. Create a Procfile in your project root and add the following line.
+
+```sh
 	web: gunicorn your_project_name.wsgi
 ```
 
-#### Step 2. Go to the command line and install psycopg2,gunicorn,django-heroku and create requirements.txt
-```py
+##### Step 2. Go to the command line and install psycopg2, gunicorn, django-heroku and create requirements.txt
+
+```sh
 	pip install psycopg2
 	# And NOW… you’ll be able to install django-heroku 
 	pip install gunicorn
@@ -21,7 +22,7 @@ Procfile
 	pip freeze > requirements.txt
 ```
 
-#### Step 3. In your app/settings.py
+##### Step 3. In your app/settings.py
 ```py
 	import django_heroku 
 
@@ -32,8 +33,8 @@ Procfile
 ```
 
 
-#### Step 4. push it to heroku
-```py
+##### Step 4. push it to heroku
+```sh
 	# login to your heroku
 	heroku login
 
