@@ -3,11 +3,6 @@ import PropTypes from "prop-types"
 import {Link } from "gatsby"
 import "./Layout.css"
 
-const search = () => {
-  console.log(document.getElementById("search").value)
-}
-
-
 const Layout = ({ children }) => {
   return (
     <>
@@ -15,9 +10,6 @@ const Layout = ({ children }) => {
         <nav>
             <div className="container">
               <Link to="/" className="brand-logo">Article</Link>
-              <div id="searchwrapper">
-                <input id="search" type="text" required/>
-              </div>
             </div>
         </nav>
       </header>

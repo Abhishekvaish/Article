@@ -3,7 +3,7 @@ path: "/post-3"
 date: "2020-12-14T14:02:16.482Z"
 title: "MYSQL cheatsheet for DDL, DML"
 author: "Abhishek Vaish"
-tags: "MySQL, CheatSheet, commands, DDL"
+tags: "MySQL, CheatSheet, commands, DDL, DML"
 featuredImage: "./mysql.png"
 ---
 
