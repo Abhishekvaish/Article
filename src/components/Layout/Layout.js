@@ -3,6 +3,9 @@ import PropTypes from "prop-types"
 import {Link } from "gatsby"
 import "./Layout.css"
 
+const search = () => {
+  console.log(document.getElementById("search").value)
+}
 
 
 const Layout = ({ children }) => {
@@ -12,6 +15,9 @@ const Layout = ({ children }) => {
         <nav>
             <div className="container">
               <Link to="/" className="brand-logo">Article</Link>
+              <div id="searchwrapper">
+                <input id="search" type="text" required/>
+              </div>
             </div>
         </nav>
       </header>
@@ -20,7 +26,6 @@ const Layout = ({ children }) => {
             <div className="container">
               © {new Date().getFullYear()}, Built with 
               <a className="white-text" href="https://www.gatsbyjs.com">&nbsp; Gatsby, </a>
-              <a className="white-text" href="https://materializecss.com/">Materialize CSS</a>
             </div>
       </footer>
     </>

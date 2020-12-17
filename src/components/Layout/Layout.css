@@ -12,6 +12,28 @@ nav{
   height: 56px;
   line-height: 56px;
 }
+nav input {
+  height: 32px;
+  border-radius: 20px;
+  padding-left: 15px;
+  border: 1px solid white;
+  margin-top: 10px;
+  width: 20vw;
+
+}
+#searchwrapper {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+#searchwrapper::after{
+  content: '🔍';
+  position: absolute;
+  top: 3px;
+  right: 15px;
+}
+
 .brand-logo{
 	color: #fff;
 	text-decoration: none;
@@ -76,4 +98,18 @@ pre{
     overflow: auto;
     word-wrap: normal;
     padding: 1.45rem;
+}
+
+.chip {
+  display: inline-block;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 32px;
+  padding: 0 12px;
+  border-radius: 16px;
+  background-color: #e4e4e4;
+  margin-bottom: 5px;
+  margin-right: 5px;
 }

@@ -11,6 +11,10 @@ const IndexPage = ({data}) => {
 					<h3>{edge.node.frontmatter.title }</h3>
 					<p>by <b>{edge.node.frontmatter.author}</b><br/>{edge.node.frontmatter.date }</p>
 					<p>{edge.node.excerpt }</p>
+					{edge.node.frontmatter.tags.split(",").map((tag)=>(
+						<div key={tag} className="chip">{tag}</div>
+					)) }
+					<br/><br/>
 					<Link to ={edge.node.frontmatter.path }>Read More</Link>
 				</div>
 			))}
@@ -28,6 +32,7 @@ export const pageQuery = graphql`
 						date(formatString: "MMM DD, YYYY")
 						path
 						title
+						tags
 					}
 					id
 					excerpt

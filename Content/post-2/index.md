@@ -3,6 +3,7 @@ path: "/post-2"
 date: "2020-12-03T05:07:31.090Z"
 title: "How To Deploy A Django App On Heroku"
 author: "Abhishek Vaish"
+tags: "python, django, heroku deploy"
 featuredImage: "./django-heroku.jpg"
 ---
 

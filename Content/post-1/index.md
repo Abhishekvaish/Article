@@ -3,6 +3,7 @@ path: "/post-1"
 date: "2020-11-24T13:04:50.533Z"
 title: "My First Gatsby Post"
 author: "Abhishek Vaish"
+tags: "gatsby, blog, first post"
 featuredImage: "./road.jpg"
 ---
 
