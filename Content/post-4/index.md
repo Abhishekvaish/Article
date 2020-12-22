@@ -1,7 +1,7 @@
 ---
 path: "/post-4"
 date: "2020-12-18T04:18:50.017Z"
-title: "MYSQL cheatsheet for DDL, DML"
+title: "Zip and Unzip file in linux"
 author: "Abhishek Vaish"
 tags: "Linux,zip,unzip,compress,extract tar file"
 featuredImage: "./linux.jpg"
