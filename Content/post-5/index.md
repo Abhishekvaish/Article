@@ -38,5 +38,5 @@ python=x.x can be any python version of your to get the latest version of python
 
 #### Delete a virtual environment
 ```
-	conda -n name_of_your_env
+	conda env remove -n name_of_your_env
 ```
