@@ -1,5 +1,5 @@
 ---
-path: "/post-7"
+path: "/date-filters-in-django-templates"
 date: "2020-12-28T08:50:36.015Z"
 title: "Date Filter in Django Templates"
 author: "Abhishek Vaish"

@@ -1,5 +1,5 @@
 ---
-path: "/post-6"
+path: "/create-a-custom-user-model-in-django-3-with-email-as-the-default-username-field"
 date: "2020-12-23T09:01:52.127Z"
 title: "Create a custom user model in django-3 with email as the default username field"
 author: "Abhishek Vaish"

@@ -1,5 +1,5 @@
 ---
-path: "/post-3"
+path: "/mysql-cheatsheet-for-ddl-and-dml-commands"
 date: "2020-12-14T14:02:16.482Z"
 title: "MYSQL cheatsheet for DDL, DML"
 author: "Abhishek Vaish"

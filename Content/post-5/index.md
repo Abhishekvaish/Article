@@ -1,5 +1,5 @@
 ---
-path: "/post-5"
+path: "/create-and-delete-virtual-enirnonment-in-anaconda"
 date: "2020-12-22T04:47:39.498Z"
 title: "Create and delete virtual environment in anaconda(python)"
 author: "Abhishek Vaish"

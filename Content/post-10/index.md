@@ -1,5 +1,5 @@
 ---
-path: "/post-10"
+path: "/how-to-use-cookies-in-nodejs"
 date: "2021-08-01T03:05:01.408Z"
 title: "How to use cookies in NodeJS"
 author: "Abhishek Vaish"

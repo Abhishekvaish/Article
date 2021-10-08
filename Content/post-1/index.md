@@ -1,5 +1,5 @@
 ---
-path: "/post-1"
+path: "/my-first-gatsby-post"
 date: "2020-11-24T13:04:50.533Z"
 title: "My First Gatsby Post"
 author: "Abhishek Vaish"

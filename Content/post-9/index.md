@@ -1,5 +1,5 @@
 ---
-path: "/post-9"
+path: "/markdown-cheatsheet"
 date: "2021-07-30T05:59:33.444Z"
 title: "Markdown Cheatsheet"
 author: "Abhishek Vaish"

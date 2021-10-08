@@ -1,5 +1,5 @@
 ---
-path: "/post-8"
+path: "/tables-in-markdown"
 date: "2020-12-28T09:33:22.407Z"
 title: "Tables in markdown"
 author: "Abhishek Vaish"

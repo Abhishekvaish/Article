@@ -1,5 +1,5 @@
 ---
-path: "/post-2"
+path: "/how-to-deploy-a-django-app-on-heroku"
 date: "2020-12-03T05:07:31.090Z"
 title: "How To Deploy A Django App On Heroku"
 author: "Abhishek Vaish"
